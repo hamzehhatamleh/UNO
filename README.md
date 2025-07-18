@@ -5,8 +5,13 @@ This is a Java-based Uno game engine built using object-oriented design principl
 
 
 How to Use
-Game game = new CustomUnoGame();
+Game game = new DefaultGame();
 game.play();
+
+
+And for the Custom Game (Uncomment the following line in GameDriver.Class)
+Game game = new CustomGame();
+
 
 Notes
 - Designed for reusability and extensibility  
